@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khastriya Kalyanalu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* background: linear-gradient(120deg, #ffecd2, #fcb69f); */
+    }
+    .nav-item a {
+    color: rgb(156, 3, 3);
+  }
+  .nav-item a:hover {
+    color: black;
+  }
+    .carousel-inner img {
+    width: 100%;
+    height: 90vh;
+  }
+  .navbar{
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+    box-shadow: 2px 2px 5px rgb(84, 83, 83);
+    border-radius: 5px;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(146, 24, 24);
+    text-shadow: 3px 3px 4px rgb(119, 118, 118);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .nav-item {
+    text-transform: uppercase;
+    color: black;
+  }
+  label, p {
+    font-family: 'Poppins', sans-serif;
+  }
+  h2 {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 4px rgb(162, 162, 162);
+  }
+  .simage {
+    width: 100%; height:40vh; border-radius: 7px;
+  }
+  .contact {
+    width: 50%;
+    margin: auto;
+  }
+
+  
+.reveal{
+  position: relative;
+  transform: translatex(50px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.reveal_one{
+  position: relative;
+  transform: translatex(-50px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal_one.active{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+  @media only screen and (max-width: 500px) {
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+    .navbar-brand {
+      font-size: 28px;
+    }
+    .simage {
+      width: 100%;
+      height: auto;
+    }
+    .checkmore {
+      margin: 1px;
+    }
+    .contact {
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px; 
+    
+    }
+    h2, h3 {
+      font-size: 25px;
+    }
+    .para {font-size: 10px;}
+
+    .reveal{
+  position: relative;
+  transform: translateY(25px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.reveal_one{
+  position: relative;
+  transform: translatex(-50px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal_one.active{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+  }
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">Khsatriya Kalyanalu</a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#"> Home  <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Kshatriya.html">About Kshatriya  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.php">Register</a>
+              </li>
+          </ul>
+        
+        </div>
+      </nav>
+      <br><br><br>
+      <!-- carousel -->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="KK images telugu/1.png" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="KK images telugu/2.png"  width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="KK images telugu/3.png"  width="1100" height="500">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <section class="my-5">
+        <div class="py-5">
+          <h2 class="text-center" style="color:rgb(146, 24, 24);">A LITTLE ABOUT US..!</h2>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+              <img src="DS/slide7.jpg" class="img-fluid  simage ">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <h3 style="font-family: 'Montserrat', sans-serif;" class="my-3">We are...<br>Team Kshatriya Kalyanalu</h2>
+              <p class="my-3 text-justify para" style="font-size:larger">We understand that searching for life partner is one of the important tasks of one’s life .when you are looking for a life partner for your loved one’s or yours we are there to help you to find appropriate match for you or your loved one’s. </p>
+                <a href="about.html" class=" btn btn-success">Check more!</a>
+              </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="my-5">
+        <div class="py-5">
+          <h2 class="text-center" style="color:rgb(146, 24, 24);">GALLERY</h2>
+        </div>
+        <div class="row container-fluid">
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide1.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide2.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide3.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide4.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide6.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide5.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide11.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide8.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img src="DS/slide10.jpg" class="img-fluid pb-4" style="border-radius: 10px;">
+          </div>
+        </div>
+      </section>
+
+      <!-- contact info form -->
+      <div class="my-5">
+      <form method="POST">
+        <h2 class="my-3 text-center" style="color: rgb(146, 24, 24);">CONTACT US</h2>
+        <div class="contact">
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" name="user" class="form-control" id="user" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label>Email-Id</label>
+          <input type="email" name="email" id="email" class="form-control" autocomplete="off">
+        </div>
+        <div class="form-group">
+            <label>Mobile</label>
+            <input type="number" name="mobile" id="mobile" class="form-control" autocomplete="off">
+          </div>
+        <div class="form-group">
+            <label>Comment</label>
+            <textarea type="text" name="textarea" id="textarea" class="form-control"></textarea>
+        </div>
+      
+        <button type="submit"traget="_blank"  onclick="gotowhatsapp()" name="save" class="btn btn-success">Submit</button>
+    </div>
+      </form>
+      </div>
+    <footer>
+    <p class="py-3 bg-dark text-light text-center">@kshatriyakalyanalu</p>
+    </footer> 
+
+    <script>
+      function gotowhatsapp() {
+          
+          var user = document.getElementById("user").value;
+          var email = document.getElementById("email").value;
+          var mobile = document.getElementById("mobile").value;
+          var textarea = document.getElementById("textarea").value;
+      
+          var url = "mailto:karthik_csd@srkrec.edu.in?subject="+"Message from క్షత్రియ కల్యాణాలు: "+user+" &body="+"Message: "+textarea+"%0a"+"Contact Number: "+mobile+""
+      
+          window.open(url, '_blank').focus();
+      }
+      </script>
+
+      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+      window.addEventListener('scroll', reveal);
+  
+      function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+  
+        for(var i = 0; i < reveals.length; i++){
+  
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 150;
+  
+          if(revealtop < windowheight - revealpoint){
+            reveals[i].classList.add('active');
+          }
+          else{
+            reveals[i].classList.remove('active');
+          }
+        }
+      }
+  </script>
+
+<script type="text/javascript">
+  window.addEventListener('scroll', reveal_one);
+
+  function reveal_one(){
+    var reveals = document.querySelectorAll('.reveal_one');
+
+    for(var i = 0; i < reveals.length; i++){
+
+      var windowheight = window.innerHeight;
+      var reveal_onetop = reveals[i].getBoundingClientRect().top;
+      var reveal_onepoint = 150;
+
+      if(reveal_onetop < windowheight - reveal_onepoint){
+        reveals[i].classList.add('active');
+      }
+      else{
+        reveals[i].classList.remove('active');
+      }
+    }
+  }
+</script>
+  
+  </body>
+</html>
